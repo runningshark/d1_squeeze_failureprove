@@ -1,0 +1,10 @@
+{
+ "module": "s14_squeeze",
+ "baseline": "s02_breakout",
+ "params": {},
+ "squeeze_grid": [10, 25, 40, 60, 100],
+ "grid": [
+  {"n": 40}, {"k": 1.5}, {"k": 2.5}, {"look": 250},
+  {"recent": 1}, {"recent": 10}, {"stop_atr": 3}
+ ]
+}
